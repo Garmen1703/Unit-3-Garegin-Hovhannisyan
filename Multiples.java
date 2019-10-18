@@ -15,9 +15,9 @@ public class Multiples{
       System.out.println("Limit must be larger than integer");
     }
     else{
-      for(int i = 1; ans <= limit; i++ ){
-        System.out.println(ans);
+      for(int i = 1; ans < limit; i++ ){
         ans = num*i;
+        System.out.println(ans);
       }
     }
   }
